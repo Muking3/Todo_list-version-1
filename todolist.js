@@ -37,20 +37,6 @@ function containTask() {
     listTask(label)
     editTask(li, label)
     deleteTask(li)
-    // label.innerText = 'bonjour'
-    // for (let i = 0; i < tableTask.length; i++) {
-    //     label.innerText = tableTask[i]
-    //     // Completé une tache
-    //     let completed = document.createElement("i")
-    //     completed.className = "fa-regular fa-circle-check"
-    //     li.appendChild(completed)
-    //     // Modifier une tache
-    //     let edit = document.createElement("i")
-    //     edit.className = "fa-solid fa-pen-to-square"
-    //     li.appendChild(edit)
-    //     // edit.addEventListener("click", function () {
-
-    //
 }
 
 
@@ -98,13 +84,6 @@ function editTask(modifier1, modifier2) {
             modifier2.innerText = editinput.value
             modifier1.removeChild(editinput)
         })
-        // editinput.addEventListener("keypress", function (event) {
-        //     if (event.key === "Enter") {
-        //         edit.className = "fa-solid fa-pen-to-square"
-        //         modifier2.innerText = editinput.value
-        //         modifier1.removeChild(editinput)
-        //     }
-        // })
     })
 }
 
